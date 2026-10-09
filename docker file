@@ -1,0 +1,9 @@
+FROM eclipse-temurin:21-jdk
+
+WORKDIR /app
+
+COPY JAVA1.java .
+
+RUN javac JAVA1.java
+
+CMD ["java", "java1"]
