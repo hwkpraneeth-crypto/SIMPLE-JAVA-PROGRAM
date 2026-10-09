@@ -6,4 +6,4 @@ COPY JAVA1.java .
 
 RUN javac JAVA1.java
 
-CMD ["java", "java1"]
+CMD ["java", "Hello, World!"]
